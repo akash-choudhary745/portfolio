@@ -29,8 +29,11 @@ function type() {
   }
   setTimeout(type, 120);
 }
-type();
 
+while(true)
+{
+type();
+}
 // Theme Toggle
 document.getElementById("themeToggle").onclick = () => {
   document.body.classList.toggle("light");
