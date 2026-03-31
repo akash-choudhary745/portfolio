@@ -30,10 +30,9 @@ function type() {
   setTimeout(type, 120);
 }
 
-while(true)
-{
+
 type();
-}
+
 // Theme Toggle
 document.getElementById("themeToggle").onclick = () => {
   document.body.classList.toggle("light");
